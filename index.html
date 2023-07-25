@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Project Recipes</title>
+    <!-- linking the style sheet to the recipe page -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    
+
     <h1>Odin Recipes</h1>
     <br>
-    <p>Please note that this project is just for fun. Do not think the steps are accurate and so do not follow them. Thank you.</p>
-    
-    <ul>
-        <li><a href="./recipes/eru.html">Eru</a></li>
-        <li><a href="./recipes/plantainandbeans.html">Plantain and Beans</a></li>
-        <li><a href="./recipes/riceandstew.html">Rice and Stew</a></li>
-    </ul>
-    
+    <p class="indent">Please note that this project is just for fun. Do not think the steps are accurate and so do not
+        follow them. Thank you.</p>
+    <div class="content">
+
+        <div class="item">
+            <a href="./recipes/eru.html"><img src="images/eru.jpg" alt="Picture of a plate of eru" class="picture"></a>
+            <p><a href="./recipes/eru.html">Eru</a></p>
+        </div>
+
+        <div class="item">
+            <a href="./recipes/plantainandbeans.html"><img src="images/plantain.jpeg"
+                    alt="Picture of a plate of plantain and beans" class="picture"></a>
+            <p><a href="./recipes/plantainandbeans.html">Plantain and Beans</a></p>
+        </div>
+
+        <div class="item">
+            <a href="./recipes/riceandstew.html"><img src="images/riceandstew.webp"
+                    alt="Picture of a plate of Rice and Stew" class="picture"></a>
+            <p><a href="./recipes/riceandstew.html">Rice and Stew</a></p>
+        </div>
+
+    </div>
+     <img src="images/chef.jpeg"  alt="Picture of a chef" class="picture">
+
 </body>
+
 </html>
